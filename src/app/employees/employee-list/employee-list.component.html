@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-div">
     <div class="margin-table">
 <mat-form-field>
     <mat-label>Filter</mat-label>
@@ -14,9 +14,9 @@
         <td mat-cell *matCellDef="let row"> {{row.id}} </td>
       </ng-container>
   
-      <ng-container matColumnDef="userName">
+      <ng-container matColumnDef="username">
         <th mat-header-cell *matHeaderCellDef mat-sort-header> Username </th>
-        <td mat-cell *matCellDef="let row"> {{row.userName}}% </td>
+        <td mat-cell *matCellDef="let row"> {{row.username}} </td>
       </ng-container>
   
 
@@ -37,12 +37,12 @@
       </ng-container>
       <ng-container matColumnDef="birthDate">
         <th mat-header-cell *matHeaderCellDef mat-sort-header> Birth Date </th>
-        <td mat-cell *matCellDef="let row"> {{row.birthDate}} </td>
+        <td mat-cell *matCellDef="let row"> {{row.birthDate | date}} </td>
       </ng-container>
 
       <ng-container matColumnDef="basicSalary">
         <th mat-header-cell *matHeaderCellDef mat-sort-header> Basic Salary </th>
-        <td mat-cell *matCellDef="let row"> {{row.basicSalary}} </td>
+        <td mat-cell *matCellDef="let row"> {{row.basicSalary | currency}} </td>
       </ng-container>
       <ng-container matColumnDef="status">
         <th mat-header-cell *matHeaderCellDef mat-sort-header>Status</th>

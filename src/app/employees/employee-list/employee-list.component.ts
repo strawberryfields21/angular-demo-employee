@@ -1,4 +1,4 @@
-import { AfterViewInit,Component,OnInit,ViewChild } from '@angular/core';
+import { Component,OnInit,ViewChild } from '@angular/core';
 import {MatPaginator} from '@angular/material/paginator';
 import {MatSort} from '@angular/material/sort';
 import {MatTableDataSource} from '@angular/material/table';
@@ -20,7 +20,7 @@ export interface UserData {
 export class EmployeeListComponent implements OnInit{
   constructor(public service:EmployeeService){}
 
-  displayedColumns: string[] = ['id', 'userName', 'firstName', 'lastName','email','birthDate','basicSalary','status','group','description'];
+  displayedColumns: string[] = ['id', 'username', 'firstName', 'lastName','email','birthDate','basicSalary','status','group','description'];
   dataSource!: MatTableDataSource<UserData>;
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
@@ -50,5 +50,4 @@ export class EmployeeListComponent implements OnInit{
       this.dataSource.paginator.firstPage();
     }
   }
-
 }
