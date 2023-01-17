@@ -1,0 +1,68 @@
+<form [formGroup]="service.form" class="normal-form">
+    <mat-grid-list cols="2" rowHeight="800px">
+        <mat-grid-tile>
+         
+            <div class="control-container">
+                <input type="hidden" formControlName="$key">
+                <mat-form-field>
+                    <mat-label>User Name</mat-label>
+                    <input formControlName="username" matInput>
+                    <mat-error>This field is mandatory</mat-error>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>First Name</mat-label>
+                    <input formControlName="firstName" matInput>
+                    <mat-error>This field is mandatory</mat-error>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Last Name</mat-label>
+                    <input formControlName="lastName" matInput>
+                    <mat-error>This field is mandatory</mat-error>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Email</mat-label>
+                    <input formControlName="email" matInput placeholder="abc@abc.com" required>
+                    <mat-error *ngIf="service.form.controls['email'].errors?.['required']">This field is mandatory</mat-error>
+                    <mat-error *ngIf="service.form.controls['email'].errors?.['email']">Invalid email</mat-error>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Birth Date</mat-label>
+                    <input type="dateime-local" formControlName="birthDate" [readonly]="true" [max]="service.today" matInput [matDatepicker]="picker">
+                    <mat-hint>MM/DD/YYYY</mat-hint>
+                    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker #picker></mat-datepicker>
+                    <mat-error>This field is mandatory</mat-error>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Basic Salary</mat-label>
+                    <input formControlName="basicSalary" matInput>
+                    <mat-error *ngIf="service.form.controls['basicSalary'].errors?.['required']">This field is mandatory</mat-error>
+                    <mat-error *ngIf="service.form.controls['basicSalary'].errors?.['pattern']">Numeric only</mat-error>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Status</mat-label>
+                    <input formControlName="status" matInput>
+                    <mat-error>This field is mandatory</mat-error>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Group</mat-label>
+                    <mat-select formControlName="group">
+                    <ng-container *ngFor="let group of groups">
+                        <mat-option value="{{group.value}}">{{group.value}}</mat-option>
+                    </ng-container>
+                    </mat-select>
+                    <mat-error>This field is mandatory</mat-error>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Description</mat-label>
+                    <textarea formControlName="description" matInput></textarea>
+                    <mat-error>This field is mandatory</mat-error>
+                </mat-form-field>
+                <div>
+                    <button mat-raised-button type="submit" [disabled]="service.form.invalid" (click)="addEmployee()" color="primary">Submit</button>
+                    <button mat-raised-button color="" class="btn-spacing">Cancel</button>
+                </div>
+            </div>
+        </mat-grid-tile>
+    </mat-grid-list>
+</form>
