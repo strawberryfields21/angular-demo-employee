@@ -9,7 +9,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 7",
       "description": "test",
       "id": 1
     },
@@ -22,7 +22,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 7",
       "description": "test",
       "id": 2
     },
@@ -35,7 +35,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 7",
       "description": "test",
       "id": 3
     },
@@ -191,7 +191,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 6",
       "description": "test",
       "id": 15
     },
@@ -204,7 +204,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 6",
       "description": "test",
       "id": 16
     },
@@ -217,7 +217,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 6",
       "description": "test",
       "id": 17
     },
@@ -321,7 +321,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 3",
       "description": "test",
       "id": 25
     },
@@ -334,7 +334,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 3",
       "description": "test",
       "id": 26
     },
@@ -347,7 +347,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 3",
       "description": "test",
       "id": 27
     },
@@ -386,7 +386,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 8",
       "description": "test",
       "id": 30
     },
@@ -451,7 +451,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 8",
       "description": "test",
       "id": 35
     },
@@ -503,7 +503,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 8",
       "description": "test",
       "id": 39
     },
@@ -594,7 +594,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 9",
       "description": "test",
       "id": 46
     },
@@ -620,7 +620,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 2",
       "description": "test",
       "id": 48
     },
@@ -633,7 +633,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 2",
       "description": "test",
       "id": 49
     },
@@ -646,7 +646,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 2",
       "description": "test",
       "id": 50
     },
@@ -685,7 +685,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 5",
       "description": "test",
       "id": 53
     },
@@ -698,7 +698,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 1",
       "description": "test",
       "id": 54
     },
@@ -711,7 +711,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 1",
       "description": "test",
       "id": 55
     },
@@ -724,7 +724,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 1",
       "description": "test",
       "id": 56
     },
@@ -750,7 +750,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 9",
       "description": "test",
       "id": 58
     },
@@ -880,7 +880,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 10",
       "description": "test",
       "id": 68
     },
@@ -1049,7 +1049,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 10",
       "description": "test",
       "id": 81
     },
@@ -1062,7 +1062,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 5",
       "description": "test",
       "id": 82
     },
@@ -1153,7 +1153,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 5",
       "description": "test",
       "id": 89
     },
@@ -1231,7 +1231,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 5",
       "description": "test",
       "id": 95
     },
@@ -1296,7 +1296,7 @@
       "birthDate": "2023-01-10T17:00:00.000Z",
       "basicSalary": 1000000,
       "status": "tetap",
-      "group": "Group 4",
+      "group": "Group 5",
       "description": "test",
       "id": 100
     },
@@ -1312,6 +1312,19 @@
       "group": "Group 3",
       "description": "testing",
       "id": 101
+    },
+    {
+      "$key": null,
+      "username": "danielekky21",
+      "firstName": "daniel",
+      "lastName": "ekky",
+      "email": "daniel.ekky@gmail.com",
+      "birthDate": "2022-10-15T17:00:00.000Z",
+      "basicSalary": "10000000",
+      "status": "tetap",
+      "group": "Group 1",
+      "description": "test",
+      "id": 102
     }
   ],
   "comments": [
