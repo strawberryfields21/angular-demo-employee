@@ -29,3 +29,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## database
 untuk menyimpan data, menggunakan json-server
 npm install -g json-server
+json-server default port localhost:3000
+
+## login
+username : admin
+password : admin
