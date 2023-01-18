@@ -20,8 +20,12 @@ form.normal-form{margin:10px}
 .margin-table{
     margin-top: 10px;
 }
-table {
+.example-container{
+  padding: 10px;
+}
+.table {
     width: 100%;
+    display: flex;
   }
 .row{
     width:100%;;
@@ -41,21 +45,6 @@ table {
   padding-left: 2px;
   display: inline-block !important;
 }
-  /* .mat-mdc-form-field-infix .ng-tns-c75-2 {
-    padding-bottom:8px;
-  } */
-  /* .widthBox {
-    margin-bottom: 0px;
-    padding-bottom: -10px;
-    margin-right: 5px;
-    width:15%;
-    font-size:14px
-  }
-  .widthText {
-    padding-top: 3px;
-    width: 83%;
-    font-size: 14px;
-  } */
   td, th {
     width: 25%;
   }

@@ -1325,6 +1325,19 @@
       "group": "Group 1",
       "description": "test",
       "id": 102
+    },
+    {
+      "$key": null,
+      "username": "naryo31",
+      "firstName": "vincen",
+      "lastName": "naryo",
+      "email": "naryo@naryo.com",
+      "birthDate": "2023-01-16T17:00:00.000Z",
+      "basicSalary": "10000000",
+      "status": "tetap",
+      "group": "Group 3",
+      "description": "jempol",
+      "id": 103
     }
   ],
   "comments": [
