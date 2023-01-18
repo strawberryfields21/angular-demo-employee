@@ -30,6 +30,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 untuk menyimpan data, menggunakan json-server
 npm install -g json-server
 json-server default port localhost:3000
+list employee dummy ada di db.json
+untuk running db.json
+json-server --watch db.json
 
 ## login
 username : admin
